@@ -72,7 +72,7 @@ const About = () => {
                 </h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Founded with a passion for storytelling through imagery, Eternal Moments has been capturing the most precious moments of couples and families for over a decade. What started as a dream to document love stories has grown into a team of dedicated artists who share the same vision.
+                    Founded with a passion for storytelling through imagery, Btech Photography has been capturing the most precious moments of couples and families for over a decade. What started as a dream to document love stories has grown into a team of dedicated artists who share the same vision.
                   </p>
                   <p>
                     We believe that every love story is unique, and it deserves to be told in a way that reflects its authenticity and beauty. Our approach combines technical expertise with artistic vision, ensuring that each photograph and video becomes a timeless piece of art.
@@ -88,7 +88,7 @@ const About = () => {
               <div className="relative">
                 <img
                   src={heroImage2}
-                  alt="About Eternal Moments"
+                  alt="About Btech Photography"
                   className="rounded-lg shadow-romantic w-full"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-6 rounded-lg shadow-elegant">

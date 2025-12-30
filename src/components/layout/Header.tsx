@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown, Camera as CameraIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
@@ -54,11 +54,12 @@ const Header = () => {
       <div className="section-container flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
+          <CameraIcon className="w-7 h-7 text-primary" />
           <span className={cn(
             "font-heading text-2xl md:text-3xl font-semibold transition-colors duration-300",
             isScrolled ? "text-foreground" : "text-background"
           )}>
-            Eternal<span className="text-primary">Moments</span>
+            Btech<span className="text-primary"> Photography</span>
           </span>
         </Link>
 

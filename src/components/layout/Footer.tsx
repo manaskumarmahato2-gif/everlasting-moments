@@ -9,7 +9,7 @@ const Footer = () => {
           {/* About Column */}
           <div>
             <h3 className="font-heading text-2xl font-semibold mb-4">
-              Eternal<span className="text-primary">Moments</span>
+              Btech<span className="text-primary"> Photography</span>
             </h3>
             <p className="text-secondary-foreground/80 text-sm leading-relaxed mb-6">
               We specialize in capturing the most precious moments of your life with artistry and passion. Every frame tells your unique love story.
@@ -109,10 +109,10 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-primary mt-0.5" />
                 <a
-                  href="mailto:hello@eternalmoments.com"
+                  href="mailto:hello@btechphotography.com"
                   className="text-secondary-foreground/80 hover:text-primary transition-colors text-sm"
                 >
-                  hello@eternalmoments.com
+                  hello@btechphotography.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -131,7 +131,7 @@ const Footer = () => {
       <div className="border-t border-secondary-foreground/10">
         <div className="section-container py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-secondary-foreground/60 text-sm">
-            © {new Date().getFullYear()} Eternal Moments. All rights reserved.
+            © {new Date().getFullYear()} Btech Photography. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link

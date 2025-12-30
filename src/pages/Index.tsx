@@ -63,7 +63,7 @@ const testimonials = [
   {
     name: "Sarah & Michael",
     event: "Wedding",
-    quote: "Eternal Moments captured our wedding day perfectly. Every photo tells a story and brings back all the emotions.",
+    quote: "Btech Photography captured our wedding day perfectly. Every photo tells a story and brings back all the emotions.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
   },

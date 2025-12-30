@@ -7,7 +7,7 @@ import { Star } from "lucide-react";
 import heroImage from "@/assets/hero-wedding-1.jpg";
 
 const testimonials = [
-  { name: "Sarah & Michael", event: "Wedding", quote: "Eternal Moments captured our wedding day perfectly. Every photo tells a story and brings back all the emotions. We couldn't be happier with the results!", rating: 5, image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" },
+  { name: "Sarah & Michael", event: "Wedding", quote: "Btech Photography captured our wedding day perfectly. Every photo tells a story and brings back all the emotions. We couldn't be happier with the results!", rating: 5, image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" },
   { name: "Emily Johnson", event: "Maternity Shoot", quote: "The most beautiful photos I've ever seen. They made me feel so comfortable and the results exceeded my expectations.", rating: 5, image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" },
   { name: "David & Lisa", event: "Pre-Wedding", quote: "Professional, creative, and absolutely wonderful to work with. Our pre-wedding photos are magazine-worthy!", rating: 5, image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" },
   { name: "Jennifer Adams", event: "Newborn", quote: "They were so gentle with our baby and captured the most precious moments. We treasure these photos!", rating: 5, image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop" },

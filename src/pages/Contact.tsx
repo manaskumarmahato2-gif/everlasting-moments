@@ -41,7 +41,7 @@ const Contact = () => {
               <p className="text-muted-foreground mb-8">Ready to capture your special moments? Fill out the form and we'll get back to you within 24 hours.</p>
               <div className="space-y-6">
                 <div className="flex items-start gap-4"><div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center"><Phone className="w-5 h-5 text-primary" /></div><div><p className="font-semibold">Phone</p><a href="tel:+1234567890" className="text-muted-foreground hover:text-primary">+1 (234) 567-890</a></div></div>
-                <div className="flex items-start gap-4"><div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center"><Mail className="w-5 h-5 text-primary" /></div><div><p className="font-semibold">Email</p><a href="mailto:hello@eternalmoments.com" className="text-muted-foreground hover:text-primary">hello@eternalmoments.com</a></div></div>
+                <div className="flex items-start gap-4"><div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center"><Mail className="w-5 h-5 text-primary" /></div><div><p className="font-semibold">Email</p><a href="mailto:hello@btechphotography.com" className="text-muted-foreground hover:text-primary">hello@btechphotography.com</a></div></div>
                 <div className="flex items-start gap-4"><div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center"><MapPin className="w-5 h-5 text-primary" /></div><div><p className="font-semibold">Location</p><p className="text-muted-foreground">123 Wedding Avenue, New York, NY 10001</p></div></div>
               </div>
               <div className="mt-8 flex gap-4">
