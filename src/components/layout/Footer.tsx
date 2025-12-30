@@ -16,7 +16,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/b.techphotography?utm_source=qr&igsh=MXR0aGFtejU2aWttbQ=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary-foreground/10 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -93,33 +93,32 @@ const Footer = () => {
                 <Phone className="w-5 h-5 text-primary mt-0.5" />
                 <div>
                   <a
-                    href="tel:+1234567890"
+                    href="tel:+917481829742"
                     className="text-secondary-foreground/80 hover:text-primary transition-colors text-sm block"
                   >
-                    +1 (234) 567-890
+                    +91 74818 29742
                   </a>
                   <a
-                    href="tel:+0987654321"
+                    href="tel:+919641744056"
                     className="text-secondary-foreground/80 hover:text-primary transition-colors text-sm block"
                   >
-                    +0 (987) 654-321
+                    +91 96417 44056
                   </a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-primary mt-0.5" />
                 <a
-                  href="mailto:hello@btechphotography.com"
+                  href="mailto:prabhatmahato171@gmail.com"
                   className="text-secondary-foreground/80 hover:text-primary transition-colors text-sm"
                 >
-                  hello@btechphotography.com
+                  prabhatmahato171@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5" />
                 <span className="text-secondary-foreground/80 text-sm">
-                  123 Wedding Avenue<br />
-                  New York, NY 10001
+                  Jsr, India
                 </span>
               </li>
             </ul>

@@ -390,15 +390,23 @@ const Index = () => {
               <Button asChild variant="hero">
                 <Link to="/contact">Get in Touch</Link>
               </Button>
+              <div className="flex flex-col gap-1 items-center">
+                <a
+                  href="tel:+917481829742"
+                  className="flex items-center gap-2 text-background hover:text-primary transition-colors"
+                >
+                  <Phone className="w-5 h-5" />
+                  <span>+91 74818 29742</span>
+                </a>
+                <a
+                  href="tel:+919641744056"
+                  className="flex items-center gap-2 text-background/90 hover:text-primary transition-colors text-sm"
+                >
+                  <span>+91 96417 44056</span>
+                </a>
+              </div>
               <a
-                href="tel:+1234567890"
-                className="flex items-center gap-2 text-background hover:text-primary transition-colors"
-              >
-                <Phone className="w-5 h-5" />
-                <span>+1 (234) 567-890</span>
-              </a>
-              <a
-                href="https://wa.me/1234567890?text=Hi, I'm interested in your photography services"
+                href="https://wa.me/917481829742?text=Hi%2C%20I'm%20interested%20in%20your%20photography%20services"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-background hover:text-primary transition-colors"
