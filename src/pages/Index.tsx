@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ChevronDown, Camera, Heart, Clock, Award, Star, Play, Phone, MessageCircle } from "lucide-react";
+import WhatsAppChooser from "@/components/ui/WhatsAppChooser";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -405,15 +406,7 @@ const Index = () => {
                   <span>+91 96417 44056</span>
                 </a>
               </div>
-              <a
-                href="https://wa.me/917481829742?text=Hi%2C%20I'm%20interested%20in%20your%20photography%20services"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-background hover:text-primary transition-colors"
-              >
-                <MessageCircle className="w-5 h-5" />
-                <span>WhatsApp</span>
-              </a>
+              <WhatsAppChooser numbers={[{ number: "917481829742", label: "+91 74818 29742" }, { number: "919641744056", label: "+91 96417 44056" }]} message={"Hi, I'm interested in your photography services"} triggerLabel={"WhatsApp"} />
             </div>
           </AnimatedSection>
         </div>

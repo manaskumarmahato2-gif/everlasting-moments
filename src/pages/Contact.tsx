@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Phone, Mail, MapPin, MessageCircle, Instagram, Facebook } from "lucide-react";
+import WhatsAppChooser from "@/components/ui/WhatsAppChooser";
 import { useToast } from "@/hooks/use-toast";
 
 import heroImage from "@/assets/hero-wedding-1.jpg";
@@ -44,9 +45,8 @@ const Contact = () => {
                 <div className="flex items-start gap-4"><div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center"><Mail className="w-5 h-5 text-primary" /></div><div><p className="font-semibold">Email</p><a href="mailto:prabhatmahato171@gmail.com" className="text-muted-foreground hover:text-primary">prabhatmahato171@gmail.com</a></div></div>
                 <div className="flex items-start gap-4"><div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center"><MapPin className="w-5 h-5 text-primary" /></div><div><p className="font-semibold">Location</p><p className="text-muted-foreground">Jsr, India</p></div></div>
               </div>
-              <div className="mt-8 flex gap-4">
-                <a href="https://wa.me/917481829742" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 bg-success text-success-foreground rounded-lg hover:opacity-90 transition-opacity"><MessageCircle className="w-5 h-5" />WhatsApp +91 74818 29742</a>
-                <a href="https://wa.me/919641744056" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 bg-success text-success-foreground rounded-lg hover:opacity-90 transition-opacity"><MessageCircle className="w-5 h-5" />WhatsApp +91 96417 44056</a>
+              <div className="mt-8 flex gap-4 items-center">
+                <WhatsAppChooser numbers={[{ number: "917481829742", label: "+91 74818 29742" }, { number: "919641744056", label: "+91 96417 44056" }]} message={"Hi, I'm interested in your photography services"} triggerLabel={"WhatsApp"} />
                 <a href="https://www.instagram.com/b.techphotography?utm_source=qr&igsh=MXR0aGFtejU2aWttbQ==" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-muted rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"><Instagram className="w-5 h-5" /></a>
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-muted rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"><Facebook className="w-5 h-5" /></a>
               </div>
